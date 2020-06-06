@@ -52,5 +52,4 @@ Develop a psuedo Full Stack Web application for event registration.
 
 5. Change baseUrl in components/baseUrl.js
 
-### Default admin username : admin, password : admin
-You can create a new admin account by sending a post request to "/signup" on the server.
+6. Create a new admin account by sending a post request to "/signup" on the server using POSTMAN.
