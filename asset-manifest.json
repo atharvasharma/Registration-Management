@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Registration-Management/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/Registration-Management/static/js/main.7aaba1bc.chunk.js",
-    "main.js.map": "/Registration-Management/static/js/main.7aaba1bc.chunk.js.map",
+    "main.js": "/Registration-Management/static/js/main.66073c55.chunk.js",
+    "main.js.map": "/Registration-Management/static/js/main.66073c55.chunk.js.map",
     "runtime-main.js": "/Registration-Management/static/js/runtime-main.d581f1d3.js",
     "runtime-main.js.map": "/Registration-Management/static/js/runtime-main.d581f1d3.js.map",
     "static/js/2.44803fec.chunk.js": "/Registration-Management/static/js/2.44803fec.chunk.js",
     "static/js/2.44803fec.chunk.js.map": "/Registration-Management/static/js/2.44803fec.chunk.js.map",
     "index.html": "/Registration-Management/index.html",
-    "precache-manifest.505558ac7bd51728ebf9e657fd61b29a.js": "/Registration-Management/precache-manifest.505558ac7bd51728ebf9e657fd61b29a.js",
+    "precache-manifest.cbeb8d690d8f4b53d4c3a129cf836430.js": "/Registration-Management/precache-manifest.cbeb8d690d8f4b53d4c3a129cf836430.js",
     "service-worker.js": "/Registration-Management/service-worker.js",
     "static/css/main.27fd15f6.chunk.css.map": "/Registration-Management/static/css/main.27fd15f6.chunk.css.map",
     "static/js/2.44803fec.chunk.js.LICENSE.txt": "/Registration-Management/static/js/2.44803fec.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d581f1d3.js",
     "static/js/2.44803fec.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.7aaba1bc.chunk.js"
+    "static/js/main.66073c55.chunk.js"
   ]
 }
