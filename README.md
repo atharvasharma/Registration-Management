@@ -50,6 +50,6 @@ Develop a psuedo Full Stack Web application for event registration.
 
 ```npm start```
 
-5. Change baseUrl in components/baseUrl.js
+5, Change baseUrl in components/baseUrl.js
 
-6. Create a new admin account by sending a post request to "/signup" on the server using POSTMAN.
+6, Create a new admin account by sending a post request to "/signup" on the server using POSTMAN.
