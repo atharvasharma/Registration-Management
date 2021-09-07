@@ -31,7 +31,7 @@ app.use(passport.session());
 
 
 /* Connecting to Database */
-const urlDB='mongodb+srv://regisrationApp:atharva@cluster0-loldi.mongodb.net/entrymanager?retryWrites=true&w=majority';
+const urlDB='mongodb+srv://atharva:registration@cluster0.syfmd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const connect=mongoose.connect(urlDB,{useNewUrlParser:true,useUnifiedTopology:true,useCreateIndex:true});
 connect.then((db)=>{
     console.log("Connected to DB successfully")
@@ -53,7 +53,7 @@ const storage = multer.diskStorage({
         cb(null,'./uploads');
     },
     filename:function(req,file,cb){
-        cb(null,new Date().toISOString()+file.originalname);
+        cb(null,new Date().toISOString().replace(/:/g, '-')+file.originalname);
     }
 });
 const upload=multer({storage:storage,fileFilter:fileFilter});
@@ -101,6 +101,7 @@ app.get("/logout",(req,res)=>{
 
 /* Routes */
 app.post("/register",upload.single('id'),function(req,res){
+    console.error("ram");
     const entry={
         fullName:req.body.fullName,
         mobile:req.body.mobile,
@@ -109,6 +110,7 @@ app.post("/register",upload.single('id'),function(req,res){
         numberOfTickets:req.body.numberOfTickets,
         idImage:req.file.path
     }
+    console.log(entry);
     Entry.create(entry)
         .then((createdEntry)=>{
            // console.log(createdEntry);
